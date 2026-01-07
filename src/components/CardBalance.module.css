@@ -1,0 +1,30 @@
+.card {
+    background-color: white;
+    border-radius: 12px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+}
+
+.label {
+    font-size: 14px;
+    color: #000;
+    margin-bottom: 2px;
+    font-weight: 500;
+}
+
+.balance {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 1.1;
+    letter-spacing: 0;
+    color: #000000;
+    font-variant-numeric: tabular-nums;
+    margin-bottom: 2px;
+}
+
+.available {
+    font-size: 14px;
+    color: #8E8E93;
+    /* iOS Secondary Gray */
+}

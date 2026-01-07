@@ -1,0 +1,136 @@
+.item {
+    display: flex;
+    padding: 12px 16px;
+    background-color: white;
+    position: relative;
+    cursor: pointer;
+    align-items: center;
+    min-height: 72px;
+}
+
+/* Inset separator */
+.item::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 72px;
+    /* 16px padding + 44px icon + 12px spacing */
+    right: 0;
+    height: 1px;
+    background-color: #f2f2f7;
+}
+
+.item:last-child::after {
+    display: none;
+}
+
+.iconWrapper {
+    width: 44px;
+    height: 44px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 12px;
+    flex-shrink: 0;
+}
+
+.icon {
+    color: white;
+    font-size: 20px;
+}
+
+.ikeaText {
+    color: #ffcc00;
+    /* IKEA Yellow */
+    font-weight: 900;
+    font-size: 10px;
+    letter-spacing: 0.5px;
+}
+
+.content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 8px;
+    overflow: hidden;
+}
+
+.rowTop {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 2px;
+}
+
+.name {
+    font-weight: 600;
+    /* Semi-bold */
+    font-size: 17px;
+    color: #000;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.amount {
+    font-weight: 400;
+    /* Normal */
+    font-size: 17px;
+    color: #000;
+    font-variant-numeric: tabular-nums;
+    letter-spacing: -0.2px;
+}
+
+.rowBottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.detailsColumn {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    margin-right: 8px;
+}
+
+.description {
+    font-size: 14px;
+    color: #8e8e93;
+    line-height: 1.35;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.pendingText {
+    /* Does not look different in screenshot, just part of string */
+}
+
+.footer {
+    font-size: 14px;
+    color: #8e8e93;
+    margin-top: 1px;
+}
+
+.percentageBadge {
+    background-color: #f2f2f7;
+    color: #8e8e93;
+    font-size: 11px;
+    font-weight: 600;
+    padding: 2px 5px;
+    border-radius: 4px;
+    margin-top: 2px;
+}
+
+.chevronWrapper {
+    color: #c7c7cc;
+    display: flex;
+    align-items: center;
+}
+
+.chevron {
+    font-size: 12px;
+}

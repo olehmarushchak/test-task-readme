@@ -1,0 +1,45 @@
+.card {
+    background-color: white;
+    border-radius: 12px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    position: relative;
+}
+
+.label {
+    font-size: 14px;
+    color: #000;
+    font-weight: 500;
+    margin-bottom: 2px;
+}
+
+.description {
+    font-size: 14px;
+    color: #8E8E93;
+    /* iOS Secondary Gray */
+    line-height: 1.35;
+    margin-bottom: auto;
+}
+
+.checkmarkContainer {
+    margin-top: 16px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.checkmarkCircle {
+    width: 48px;
+    height: 48px;
+    background-color: #ededed;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon {
+    color: #000;
+    font-size: 20px;
+}

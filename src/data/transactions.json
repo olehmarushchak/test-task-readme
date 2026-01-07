@@ -1,0 +1,78 @@
+[
+    {
+        "id": "t1",
+        "type": "credit",
+        "amount": 14.06,
+        "name": "Apple",
+        "description": "Card Number Used",
+        "date": "2022-09-29T10:30:00",
+        "pending": true,
+        "authorizedUser": "Diana",
+        "percentage": "3%",
+        "iconType": "apple"
+    },
+    {
+        "id": "t2",
+        "type": "payment",
+        "amount": 174.00,
+        "name": "Payment",
+        "description": "From JPMorgan Chase Bank National...",
+        "date": "2022-09-27T09:00:00",
+        "pending": false,
+        "iconType": "payment-gradient"
+    },
+    {
+        "id": "t3",
+        "type": "credit",
+        "amount": 3.24,
+        "name": "Apple",
+        "description": "Card Number Used",
+        "date": "2022-09-27T14:15:00",
+        "pending": false,
+        "authorizedUser": "Diana",
+        "percentage": "3%",
+        "iconType": "apple"
+    },
+    {
+        "id": "t4",
+        "type": "payment",
+        "amount": 99.71,
+        "name": "Payment",
+        "description": "From JPMorgan Chase Bank National...",
+        "date": "2022-09-24T11:20:00",
+        "pending": false,
+        "iconType": "payment-gradient"
+    },
+    {
+        "id": "t5",
+        "type": "payment",
+        "amount": 73.58,
+        "name": "Payment",
+        "description": "From JPMorgan Chase Bank National...",
+        "date": "2022-09-26T16:45:00",
+        "pending": false,
+        "iconType": "payment-gradient"
+    },
+    {
+        "id": "t6",
+        "type": "credit",
+        "amount": 21.61,
+        "name": "IKEA",
+        "description": "Round Rock, TX",
+        "date": "2022-10-01T13:10:00",
+        "pending": false,
+        "percentage": "2%",
+        "iconType": "ikea"
+    },
+    {
+        "id": "t7",
+        "type": "credit",
+        "amount": 73.58,
+        "name": "Target",
+        "description": "Cedar Park, TX",
+        "date": "2022-09-28T18:20:00",
+        "pending": false,
+        "percentage": "2%",
+        "iconType": "target"
+    }
+]

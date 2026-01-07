@@ -1,0 +1,20 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  /* Or center if we want vertical centering */
+  min-height: 100vh;
+  background-color: #f2f2f7;
+  /* iOS background gray */
+  font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+.container {
+  width: 100%;
+  max-width: 480px;
+  background-color: #F2F2F7;
+  min-height: 100vh;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+  position: relative;
+  overflow-x: hidden;
+}

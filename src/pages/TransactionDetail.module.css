@@ -1,0 +1,111 @@
+.padding {
+    padding: 16px;
+}
+
+.header {
+    padding: 16px;
+    display: flex;
+    align-items: center;
+}
+
+.backButton {
+    background: none;
+    border: none;
+    font-size: 24px;
+    color: #007aff;
+    /* iOS blue */
+    padding: 0;
+    cursor: pointer;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 16px;
+}
+
+.amountLarge {
+    font-size: 48px;
+    font-weight: 700;
+    color: #000;
+    margin-bottom: 8px;
+    letter-spacing: -1px;
+    /* Tighter for large SF Pro */
+    font-variant-numeric: tabular-nums;
+}
+
+.name {
+    font-size: 16px;
+    color: #8E8E93;
+    /* Strict iOS Gray */
+    margin-bottom: 4px;
+}
+
+.date {
+    font-size: 14px;
+    color: #8E8E93;
+    /* Strict iOS Gray */
+    margin-bottom: 48px;
+}
+
+.cardBlock {
+    width: 100%;
+    background-color: white;
+    border-radius: 12px;
+    padding: 16px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.02);
+}
+
+.statusRow {
+    margin-bottom: 16px;
+    border-bottom: 1px solid #f2f2f7;
+    /* Add separator */
+    padding-bottom: 16px;
+}
+
+.statusLabel {
+    font-weight: 600;
+    font-size: 14px;
+    color: #000;
+    margin-bottom: 4px;
+}
+
+.cardInfo {
+    font-size: 14px;
+    color: #8E8E93;
+    /* Strict iOS Gray */
+}
+
+.divider {
+    display: none;
+    /* Handled by border-bottom */
+    height: 1px;
+    background-color: #f2f2f7;
+    margin: 16px -16px;
+}
+
+.totalRow {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.totalLabel {
+    font-weight: 600;
+    font-size: 16px;
+    color: #000;
+}
+
+.totalValue {
+    font-weight: 600;
+    font-size: 16px;
+    color: #000;
+    font-variant-numeric: tabular-nums;
+}
+
+.notFound {
+    text-align: center;
+    margin-top: 40px;
+    color: #8E8E93;
+}
